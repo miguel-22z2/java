@@ -18,39 +18,39 @@ public class Exercicio20 {
 			System.out.println(' ');
 			System.out.println("[5] Sair da Calculadora");
 			System.out.println(' ');
-			System.out.print("Escolha sua opção:");
+			System.out.print("Escolha sua opção: ");
 			opcao = teclado.nextInt();
 			System.out.println(' ');
 			
 			if (opcao == 1) {
 				int numero1, numero2 = 0;
-				System.out.println("Digite o 1º número:");
+				System.out.print("Digite o 1º número: ");
 				numero1 = teclado.nextInt();
-				System.out.println("Digite o 2º número:");
+				System.out.print("Digite o 2º número:");
 				numero2 = teclado.nextInt();
 				System.out.println(' ');
 				System.out.println("Resultado: " + (numero1 + numero2));
 			} else if (opcao == 2) {
 				int numero1, numero2 = 0;
-				System.out.println("Digite o 1º número:");
+				System.out.print("Digite o 1º número: ");
 				numero1 = teclado.nextInt();
-				System.out.println("Digite o 2º número:");
+				System.out.print("Digite o 2º número: ");
 				numero2 = teclado.nextInt();
 				System.out.println(' ');
 				System.out.println("Resultado: " + (numero1 - numero2));
 			} else if (opcao == 3) {
 				int numero1, numero2 = 0;
-				System.out.println("Digite o 1º número:");
+				System.out.print("Digite o 1º número: ");
 				numero1 = teclado.nextInt();
-				System.out.println("Digite o 2º número:");
+				System.out.print("Digite o 2º número: ");
 				numero2 = teclado.nextInt();
 				System.out.println(' ');
 				System.out.println("Resultado: " + (numero1 * numero2));
 			} else if (opcao == 4) {
 				float numero1, numero2 = 0;
-				System.out.println("Digite o 1º número:");
+				System.out.print("Digite o 1º número: ");
 				numero1 = teclado.nextInt();
-				System.out.println("Digite o 2º número:");
+				System.out.print("Digite o 2º número: ");
 				numero2 = teclado.nextInt();
 				System.out.println(' ');
 				
